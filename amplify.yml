@@ -1,0 +1,25 @@
+version: 1
+runtime-versions:
+
+backend:
+  phases:
+    preBuild:
+      commands:
+        - pip install pytest
+        - pytest
+    build:
+      commands:
+        - pip install --user pipenv
+        - amplifyPush --simple
+
+frontend:
+  phases:
+    build:
+      commands: []
+
+  artifacts:
+    baseDirectory: /
+    files:
+      - '**/*'
+  cache:
+    paths: []
