@@ -15,7 +15,7 @@
       "function": {
         "userHandler": {
           "deploymentBucketName": "amplify-tddprojet-dev-1c71f-deployment",
-          "s3Key": "amplify-builds/userHandler-683664374b736c51324a-build.zip"
+          "s3Key": "amplify-builds/userHandler-703658702b372b4a5258-build.zip"
         }
       },
       "storage": {
