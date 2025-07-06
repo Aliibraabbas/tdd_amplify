@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "paths": {
+    "/adduser": {
+      "name": "/adduser",
+      "lambdaFunction": "userHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/getuser": {
+      "name": "/getuser",
+      "lambdaFunction": "userHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/getemail": {
+      "name": "/getemail",
+      "lambdaFunction": "userHandler",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
